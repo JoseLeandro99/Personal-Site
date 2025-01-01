@@ -1,0 +1,62 @@
+/* palette used: https://lospec.com/palette-list/slso8 */
+
+:root {
+    --color-1: #0d2b45;
+    --color-2: #203c56;
+    --color-3: #544e68;
+    --color-4: #8d697a;
+    --color-5: #d08159;
+    --color-6: #ffaa5e;
+    --color-7: #ffd4a3;
+    --color-8: #ffecd6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color: var(--color-8);
+    color: var(--color-1);
+}
+
+body, input, select, textarea, button {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.app {
+    width: 100%;
+    max-width: 750px;
+}
+
+.app > header {
+    background-color: var(--color-1);
+    color: var(--color-8);
+
+    padding: 16px 0;
+    text-align: center;
+}
+
+.app > .content {
+    background-color: var(--color-2);
+    color: var(--color-7);
+    padding: 16px;
+    height: 500px;
+}

@@ -60,3 +60,7 @@ body, input, select, textarea, button {
     padding: 16px;
     height: 500px;
 }
+
+.error-container > h1 {
+    font-size: 128px;
+}
